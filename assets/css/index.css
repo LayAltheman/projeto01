@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&family=Didact+Gothic&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FCFFE7;
+    width: 100%;
+    color: #243763;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    height: 97vh;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.content h1 {
+    font-family: 'Cantora One', sans-serif;
+    font-size: 50px;
+    margin-bottom: 12%;
+    color: #243763;
+}
+
+.content p {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    width: 65%;
+    margin-bottom: 12%;
+    color: #FF6E31;
+}
+
+input {
+    height: 60px;
+    width: 250px;
+    border: none;
+    background-color: #243763;
+    color: white;
+    font-family: 'Didact Gothic', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+input:hover {
+    transform: scale(1.2,1.2) ;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    box-shadow: -2px 2px 18px 0 #243763;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.svg-img {
+    width: 80%;
+    height: 80%;
+}
+footer {
+    display: flex;
+    justify-content:space-evenly;
+    font-family: 'Cantora One', sans-serif;
+}
+footer a {
+    text-decoration: none;
+    color: #243763;
+    transition: 1s ease;
+}
+
+footer a:hover {
+    color: #FF6E31;
+}
